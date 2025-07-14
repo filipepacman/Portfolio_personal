@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com Filipe Pereira - Desenvolvedor Web Full Stack.">
+  <meta name="keywords" content="contato, portfolio, desenvolvedor, javascript, react, node">
+  <meta name="author" content="Filipe Pereira">
+  <title>Contato | Filipe Pereira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Filipe Pereira</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <section class="contact-form">
+      <h2>Entre em Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="mensagemRetorno"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Filipe Pereira. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="jquery.form-handler.js"></script>
+</body>
+</html>
